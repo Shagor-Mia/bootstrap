@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Document</title>
+
+    <!-- font awesome link 5 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar navbar-expand-md fixed-top">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span><i class="fas fa-bars navbar-icon"></i></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img
+                class="m-auto"
+                height="70px"
+                width="80px"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAcCAMAAAA3HE0QAAAA2FBMVEVHcEwTkdwLaaEBZZ9vtK4Ra6CAwiGHwB0QgtEedKiFvxuAuwZ+ugIDfc8Qg9UUbqGAvA2AvAvoGzYHf9CCvhp/uwf7rSnwW0fnDS3nFDHoGzbpLUQUhdIDfdBzyiP6qiH3pAT3pAD4pgvoFTPnDCznES/rITkLgNCBvA96vgj6sB75qBn4qBf4qBXnHTboES7oFzMAh9b6oT/4qRr3pQb4pAfmFzPoHTbsLkT2pQz3pgb4qRvoITn3qBr4qx3oDTDnFTD3oQDnGzXqSVn4xHz4uVzoHjjnGzYN5PVDAAAASHRSTlMAIcD/EbE2VH0/J5T//ld1iu4e6XbYPgf/5JU3jaYZTq7/n67/9UbivWcRc9QsUcBgRh+H3ezLfRD8jI4/u2BrxTTGT9atzNu0NxOtAAABQ0lEQVR4AZ3PRWLDMAAF0QkzgxxmZla43PvfqGpQTrlv+8eWxJmF71ltNjvfcdhsfOR0ceK2OGwezLw+v/8aBIKekGkNR/wKEI2i2AOBmNvCiT2eUGMk7IQkwkilM2DJxgKBQA7F9b4m4nlEoVgqQ6VaNWrpumrcjUPh9zdb0O50S0oP+sa7am0wVM0I8i4YT6algxmKcTFfSCBZXpbOVigV46Jag0JJ00OpGxpYa/uMA3NQ1oI1B5Xq9Qwo3p4AGy0Y68GMk5pxkdGDCSfaO/p6MOZEGpdDhmwve5kLmU6dmiHd07zdYSKHlZpq9szUOF0n+YTo16p71Lc9vnS3oLTjO0M6/IuM9mVfyj5w3wMK3BCLh8VjPb1Ib3h6LqwLk3ISs5fMaz2TXmT27e220+uUdyvMokhBVArZFu2xaLd7gqM3AxA4UBFmPsoAAAAASUVORK5CYII="
+                alt="logo"
+              />
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-center text-md-left" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center text-md-left" href="#about-me"
+                    >AboutMe</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center text-md-left" href="#tutorial"
+                    >Tutorial</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center text-md-left" href="#feedback"
+                    >Feedback</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center text-md-left" href="#contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <section id="banner">
+          <div
+            class="banner-container d-flex justify-content-center align-items-center"
+          >
+            <div class="banner-contents text-center">
+              <h1 class="fw-bolder text-white mb-5">Learn Something New!!!</h1>
+              <button
+                class="btn btn-outline-primary me-3"
+                onclick="location.href='#tutorial'"
+              >
+                <i class="fas fa-play ms-1"></i>Tutorials
+              </button>
+              <button
+                class="btn btn-outline-danger"
+                onclick="window.open('https://www.youtube.com/watch?v=VWyqfkZwMaY&t=681s')"
+                class="request-callback"
+              >
+                <i class="fab fa-youtube ms-0"></i>Subscribe
+              </button>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <main>
+        <!-- features-starts -->
+        <section id="features">
+          <div class="row">
+            <div class="col-lg-4 d-block d-lg-flex">
+              <div class="features-col text-center">
+                <i
+                  class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"
+                ></i>
+                <h5 class="fw-bolder">Free to use</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                  officia labore odio.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-block d-lg-flex">
+              <div class="features-col text-center">
+                <i
+                  class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"
+                ></i>
+                <h5 class="fw-bolder">Free to use</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                  officia labore odio.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-block d-lg-flex">
+              <div class="features-col text-center">
+                <i
+                  class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"
+                ></i>
+                <h5 class="fw-bolder">Free to use</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                  officia labore odio.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- features-end  -->
+
+        <!-- AboutMe starts  -->
+        <section id="about-me">
+          <div class="section-title">
+            <h3 class="text-center">About Me</h3>
+            <hr class="mb-3 hr-style" />
+          </div>
+
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="basic-desc text-center text-lg-right">
+                <i class="icon-style rounded-circle far fa-user fa-2x"></i>
+                <h5 class="fw-bolder">Personal Info</h5>
+                <p>Name: Md.Shagor Mia</p>
+                <p>Profession: CSE Engineer</p>
+                <p>Address: Homna,Cumilla</p>
+                <p>
+                  Wbsite:
+                  <a href="https://github.com/Shagor-Mia">www.Shagor Mia.net</a>
+                </p>
+                <p>
+                  <a href="#"
+                    ><button class="btn btn-outline-success">
+                      Download CV
+                    </button></a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-7"></div>
+            <div class="col-lg-5">
+              <div class="achieve-desc text-center text-lg-left">
+                <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+                <h5 class="fw-bolder">Acheivement</h5>
+                <p><span>IELTS Score: 7.5</span> Best above all.</p>
+                <p><span>100% Scholarship.</span> in AUS</p>
+                <p><span>Completed MERN stack</span> currently good job</p>
+                <p>
+                  Wbsite:
+                  <a href="https://github.com/Shagor-Mia">www.Shagor Mia.net</a>
+                </p>
+                <p>
+                  <a href="#"
+                    ><button class="btn btn-outline-success">
+                      Download CV
+                    </button></a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="skill-desc text-lg-left">
+                <i class="icon-style rounded-2 fas fa-briefcase fa-2x"></i>
+                <h5 class="fw-bolder">Skills</h5>
+                <table>
+                  <tr>
+                    <td>HTML:</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>CSS:</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>Javascript:</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>React:</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>Node js:</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-7"></div>
+            <div class="col-lg-5">
+              <div class="achieve-desc text-center text-lg-left">
+                <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+                <h5 class="fw-bolder">Acheivement</h5>
+                <p><span>IELTS Score: 7.5</span> Best above all.</p>
+                <p><span>100% Scholarship.</span> in AUS</p>
+                <p><span>Completed MERN stack</span> currently good job</p>
+                <p>
+                  Wbsite:
+                  <a href="https://github.com/Shagor-Mia">www.Shagor Mia.net</a>
+                </p>
+                <p>
+                  <a href="#"
+                    ><button class="btn btn-outline-success">
+                      Download CV
+                    </button></a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- AboutMe ends  -->
+        <!-- Feedback start -->
+        <section id="feedback">
+          <div class="section-title">
+            <h3 class="text-center">Feedback</h3>
+            <hr class="mb-3 hr-style" />
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-interval="2000"
+                data-pause="hover"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <p>
+                      1. Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Facere harum accusantium ducimus iste tempore rem a.
+                      Ex veniam magnam enim perspiciatis minus!
+                    </p>
+                    <img
+                      class="rounded-circle mb-3"
+                      height="100px"
+                      width="100px"
+                      src="https://avatars.githubusercontent.com/u/125795269?v=4"
+                      alt=""
+                    />
+                    <h5>Shagor Mia</h5>
+                  </div>
+                  <div class="carousel-item">
+                    <p>
+                      2. Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Facere harum accusantium ducimus iste tempore rem a.
+                      Ex veniam magnam enim perspiciatis minus!
+                    </p>
+                    <img
+                      class="rounded-circle mb-3"
+                      height="100px"
+                      width="100px"
+                      src="https://avatars.githubusercontent.com/u/125795269?v=4"
+                      alt=""
+                    />
+                    <h5>Shagor Mia</h5>
+                  </div>
+                  <div class="carousel-item">
+                    <p>
+                      3. Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Facere harum accusantium ducimus iste tempore rem a.
+                      Ex veniam magnam enim perspiciatis minus!
+                    </p>
+                    <img
+                      class="rounded-circle mb-3"
+                      height="100px"
+                      width="100px"
+                      src="https://avatars.githubusercontent.com/u/125795269?v=4"
+                      alt=""
+                    />
+                    <h5>Shagor Mia</h5>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Feedback end -->
+      </main>
+      <footer><h3>hjop</h3></footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

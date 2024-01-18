@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("EventCometFeedUnitVariables.entrypoint",["WebPixelRatio"],(function(a,b,c,d,e,f,g){"use strict";a={displayCommentsContextEnableComment:null,displayCommentsContextIsAdPreview:null,displayCommentsContextIsAggregatedShare:null,displayCommentsContextIsStorySet:null,displayCommentsFeedbackContext:null,feedbackSource:34,feedLocation:"EVENT",focusCommentID:null,privacySelectorRenderLocation:"COMET_STREAM",renderLocation:"event",scale:d("WebPixelRatio").get(),useDefaultActor:!1};g["default"]=a}),98);
+__d("EventCometFeedVariables",["EventCometFeedUnitVariables.entrypoint"],(function(a,b,c,d,e,f,g){"use strict";function a(a,b,d,e){return babelHelpers["extends"]({},c("EventCometFeedUnitVariables.entrypoint"),{eventID:a,focusCommentID:(a=e)!=null?a:d,hoistedIDs:(e=b)!=null?e:[]})}g.getFeedVariables=a}),98);
+__d("CometMixedPermsAfterMigrationWarningDialogQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="6693521894002298"}),null);
